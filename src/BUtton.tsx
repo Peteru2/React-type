@@ -5,7 +5,7 @@ type buttonProps = {
 
 const Button = (props: buttonProps) => {
     return ( 
-        <button className ="grid px-4 py-2 bg-blue-500 text-white font-bold"onClick={(event)=>props.handleClick(event,1)}>Click</button>
+        <button className ="grid px-4 py-2 flex justify-center bg-blue-500 text-white font-bold"onClick={(event)=>props.handleClick(event,1)}>Click</button>
      );
 }
  
