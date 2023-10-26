@@ -4,6 +4,7 @@ import DGreet from './Component/DGreet';
 import Heading from './Component/Heading';
 import  Person from './Component/Person';
 import Status from './Component/Status';
+import StyleComp from './Component/StyleComp';
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
         <Button handleClick={(event,id) =>{
           console.log("Clicked", event, id)
         }}/>
+        
+        <StyleComp style={{border: "2px solid brown", marginTop:"20px"}}/>
     </div>
   );
 }
