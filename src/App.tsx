@@ -1,4 +1,5 @@
 import './App.css';
+import UserLog from './Auth/Userlog';
 import Button from './BUtton';
 import DGreet from './Component/DGreet';
 import Heading from './Component/Heading';
@@ -24,7 +25,8 @@ function App() {
           console.log("Clicked", event, id)
         }}/>
         
-        <StyleComp style={{border: "2px solid brown", marginTop:"20px"}}/>
+        <StyleComp value ="Jesus Is Lord" style={{border: "2px solid brown", marginTop:"20px"}}/>
+        <UserLog />
     </div>
   );
 }

@@ -1,12 +1,13 @@
 type StyleCompProps = {
-    style: React.CSSProperties
+    style: React.CSSProperties,
+    value: string
 }
 
 
-const StyleComp = (props: StyleCompProps) => {
+const StyleComp = ({style, value}: StyleCompProps) => {
     return ( 
         <>
-            <div style={props.style}>This is a react typescrpt CSS style component</div>
+            <div style={style}>{value}</div>
         </>
      );
 }
