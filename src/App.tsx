@@ -6,6 +6,7 @@ import Heading from './Component/Heading';
 import  Person from './Component/Person';
 import Status from './Component/Status';
 import StyleComp from './Component/StyleComp';
+import Counter from './state/counter';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         
         <StyleComp value ="Jesus Is Lord" style={{border: "2px solid brown", marginTop:"20px"}}/>
         <UserLog />
+        <Counter />
     </div>
   );
 }
